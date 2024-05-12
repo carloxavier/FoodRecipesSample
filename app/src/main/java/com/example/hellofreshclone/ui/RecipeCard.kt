@@ -38,7 +38,7 @@ fun RecipeCard(
             // Image
             NetworkImage(
                 imageUrl = recipe.imageUrl,
-                description = recipe.name,
+                description = recipe.title,
                 modifier = Modifier
                     .fillMaxWidth()
                     .aspectRatio(16f / 9f)
@@ -48,7 +48,7 @@ fun RecipeCard(
 
             // Recipe Title
             Text(
-                text = recipe.name,
+                text = recipe.title,
                 style = MaterialTheme.typography.headlineMedium,
                 fontWeight = FontWeight.Bold
             )

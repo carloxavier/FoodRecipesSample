@@ -33,7 +33,7 @@ private fun RecipeDetailView(recipeValue: Recipe) {
     Column(modifier = Modifier.padding(16.dp)) {
         NetworkImage(
             imageUrl = recipeValue.imageUrl,
-            description = recipeValue.name,
+            description = recipeValue.title,
             modifier = Modifier
                 .fillMaxWidth()
                 .aspectRatio(16f / 9f)
@@ -41,7 +41,7 @@ private fun RecipeDetailView(recipeValue: Recipe) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        Text(text = recipeValue.name, style = MaterialTheme.typography.headlineLarge)
+        Text(text = recipeValue.title, style = MaterialTheme.typography.headlineLarge)
 
         Spacer(modifier = Modifier.height(8.dp))
 
