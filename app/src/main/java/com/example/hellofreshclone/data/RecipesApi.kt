@@ -1,4 +1,4 @@
-package com.example.hellofreshclone.network
+package com.example.hellofreshclone.data
 
 import com.example.hellofreshclone.domain.Recipe
 import retrofit2.http.GET

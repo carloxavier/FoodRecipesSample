@@ -1,6 +1,5 @@
-package com.example.hellofreshclone.network
+package com.example.hellofreshclone.data
 
-import com.example.hellofreshclone.data.RecipeDataSource
 import com.example.hellofreshclone.domain.Recipe
 import javax.inject.Inject
 
