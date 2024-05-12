@@ -1,1 +1,1 @@
-example of a Clean Architecture using Compose
+sample android app using jetpack compose, StateFlow, Clean Architecture
